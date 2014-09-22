@@ -1,7 +1,7 @@
 import pygame, math
  
 pygame.init()
-window = pygame.display.set_mode((600, 600))
+window = pygame.display.set_mode((800, 800))
 pygame.display.set_caption("Fractal Tree")
 screen = pygame.display.get_surface()
  
@@ -17,8 +17,7 @@ def input(event):
     if event.type == pygame.QUIT:
         exit(0)
  
-drawTree(300, 550, -90, 5)
-        exit(0)
+drawTree(300, 550, -90, 10)
  
 pygame.display.flip()
 while True:
